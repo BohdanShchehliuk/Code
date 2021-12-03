@@ -48,9 +48,9 @@ public class Scale {
             char [] arrayAdd = new  char [numberNew-1];
             System.arraycopy(arrayNew, 0, arrayAdd, 0, (numberNew-1));
            // System.out.println(Arrays.toString(arrayAdd));
-            String string3 = new String(arrayAdd);
+            String stringfinal = new String(arrayAdd);
             //System.out.println(string3);
-            return string3;
+            return stringfinal;
         }
     }
     public static void main(String[] args) {
